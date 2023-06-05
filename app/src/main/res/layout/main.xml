@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tvleanback.ui.MainFragment"
+    android:background="@drawable/upb">
+    >
+
+    <ImageView
+        android:id="@+id/boxbg"
+        android:layout_width="400px"
+        android:layout_height="1500px"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/boxbg" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="310px"
+        android:layout_height="309px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="310px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_below="@id/logo"
+        android:text="Home"
+        android:textSize="20sp"
+        android:padding="2dp"
+        android:textStyle="bold|italic"
+        android:textColor="#080707"
+        android:background="#D9D9D9" /><!--Background green color-->
+
+    <Button
+        android:id="@+id/media"
+        android:layout_width="310px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_below="@id/home"
+        android:text="Media"
+        android:textSize="20sp"
+        android:padding="2dp"
+        android:textStyle="bold|italic"
+        android:textColor="#080707"
+        android:background="#D9D9D9" /><!--Background green color-->
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="310px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_below="@id/media"
+        android:text="Play"
+        android:textSize="20sp"
+        android:padding="2dp"
+        android:textStyle="bold|italic"
+        android:textColor="#080707"
+        android:background="#D9D9D9" /><!--Background green color-->
+
+    <ImageView
+        android:id="@+id/boxvid1"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="120px"
+        />
+
+    <ImageView
+        android:id="@+id/boxvid2"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_toRightOf="@id/boxvid1"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="120px"
+        />
+
+    <ImageView
+        android:id="@+id/boxvid3"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_toRightOf="@id/boxvid2"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="120px"
+        />
+
+    <ImageView
+        android:id="@+id/boxvid4"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_toRightOf="@id/boxvid3"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="120px"
+        />
+
+    <ImageView
+        android:id="@+id/boxvid5"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_below="@id/boxvid1"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="50px"
+        />
+
+    <ImageView
+        android:id="@+id/boxvid6"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_below="@id/boxvid2"
+        android:layout_toRightOf="@id/boxvid5"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        />
+
+    <ImageView
+        android:id="@+id/boxvid7"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_below="@id/boxvid3"
+        android:layout_toRightOf="@id/boxvid6"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        />
+
+    <ImageView
+        android:id="@+id/boxvid8"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_below="@id/boxvid4"
+        android:layout_toRightOf="@id/boxvid7"
+        android:src="@drawable/boxvideo"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        />
+</RelativeLayout>
